@@ -43,17 +43,24 @@ body{
     width: 70%;
     border: none;
     outline: none;
-    border-bottom: 3px solid #407A52;
+    border-bottom: 3px solid #6B9362;
     font-size: 16px;
 }
 
 .search-box button{
     padding: 15px 0;
+    color: #ffffff;
     width: 25%;
-    background-color: #407A52;
+    background-color: #6B9362;
     border: none;
     outline: none;
     border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: #5B8930;
+    color: #ffffff;
 }
 
 .result {
@@ -82,7 +89,7 @@ body{
 .result .details{
     display: flex;
     gap: 10px;
-    color: #36D7B7;
+    color: #6B9362;
     margin: 5px 0 20px 0;
     font-size: 14px;
 }
@@ -103,3 +110,12 @@ body{
     margin-top: 80px;
     text-align: center;
 }
+
+i{
+    color: #6B9362;
+}
+
+i:hover{
+    transform: scale(1.3);
+}
+
